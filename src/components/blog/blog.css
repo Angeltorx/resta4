@@ -1,0 +1,35 @@
+
+.blogContainer{
+    max-width: 1600px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.blogJumbotron{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.blogJumbotron h1{
+    font-size: 60px;
+    margin-top: 15px;
+    text-decoration: overline;
+}
+
+.blogJumbotron p{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.blogTextContent{
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+
+a.underline:hover{
+    color: white;
+    text-align: right;
+    font-family: lexend;
+}
+

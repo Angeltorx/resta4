@@ -1,0 +1,12 @@
+
+
+.aboutContainer{
+    max-width: 1600px;
+    padding: 25px;
+    margin: 25px;
+}
+.aboutJumbotron{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+

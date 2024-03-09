@@ -10,7 +10,6 @@ import Home from '../pages/Home'
 import Menu from '../components/menu/Menu'
 
 
-
 function App() {
   return (
     <div className="App">
@@ -18,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/Menu" element={<Menu/>} />
-        <Route path="/Blog" element={<Blog/>} />
         <Route path="/Reservas" element={<Reservas />} />
+        <Route path="/Blog" element={<Blog/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contact/>} />
       </Routes>
