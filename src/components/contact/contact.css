@@ -1,0 +1,84 @@
+.contactContainer {
+    max-width: 1600px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.contactContent iframe {
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.contactJumbotron {
+    min-height: 200px;
+}
+
+
+.contactJumbotron h1 {
+    font-size: 60px;
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.contactJumbotron p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+form.contactForm {
+    display: table;
+}
+
+div.contactForm {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    min-height: 30px;
+    min-width: 150px;
+}
+
+label {
+    padding-right: 10px;
+    color: white;
+}
+
+.contactTable{
+    table-layout: fixed;
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+.contactTable th{
+    color: white;
+    text-align: left;
+}
+
+.contactTable td {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: right;
+}

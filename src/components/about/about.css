@@ -1,12 +1,42 @@
 
-
 .aboutContainer{
     max-width: 1600px;
     padding: 25px;
     margin: 25px;
 }
+.aboutContainer ol li{
+    padding: 10px;
+    text-align: left;
+}
+.aboutContainer ul li{
+    padding: 10px;
+    text-align: left;
+}
+
 .aboutJumbotron{
     padding: 0px 0px 10px 0px;
     text-align: center;
+    min-height: 300px;
+}
+
+.aboutJumbotron h1{
+    font-size: 60px;
+    font-family: lexend;
+    text-decoration: overline;
+}
+.aboutContainer h2{
+    font-size: 30px;
+    font-family: lexend;
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.lema{
+    color:white ;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
 }
 

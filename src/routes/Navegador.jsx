@@ -15,7 +15,7 @@ return (
             </div>
             <ul className='Navmenu'>
                 <li className='NavItem'><NavLink className='NavLink' to="/Home">Home</NavLink></li>
-                <li className='NavItem'><NavLink className='NavLink' to="/About">About us</NavLink></li>
+                <li className='NavItem'><NavLink className='NavLink' to="/About">Conocenos</NavLink></li>
                 <li className='NavItem'><NavLink className='NavLink' to="/Menu">Menu</NavLink></li>
                 <li className='NavItem'><NavLink className='NavLink' to="/Reservas">Reservaciones</NavLink></li>
                 <li className='NavItem'><NavLink className='NavLink' to="/Blog">Blog</NavLink></li>

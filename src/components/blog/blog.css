@@ -5,6 +5,11 @@
     margin: 25px;
 }
 
+.blogContainer h2{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
 .blogJumbotron{
     padding: 0px 0px 10px 0px;
     text-align: center;
