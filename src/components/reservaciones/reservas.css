@@ -1,4 +1,92 @@
-.White {
+.reservasjumbotron {
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+    min-height: 250px;
+}
+
+.reservasjumbotron h1 {
+    font-size: 60px;
+    font-family: lexend;
     color: white;
-    
+    text-decoration: overline;
+}
+
+.reservasjumbotron h2{
+    color:white ;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.reservaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.reserform {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.reserform p {
+    color: white;
+}
+
+.form-reserva {
+    padding: 25px;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-reserva:hover {
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562);
+    color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.reservasDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    position: relative;
+    top: auto;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.reservasDatos h2{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+.reservasDatos th {
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.reservasDatos td {
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color:beige;
 }
