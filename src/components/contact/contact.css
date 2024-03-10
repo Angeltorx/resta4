@@ -59,6 +59,11 @@ input {
     min-width: 150px;
 }
 
+.check {
+    min-height: 15px;
+    min-width: 15px;
+}
+
 label {
     padding-right: 10px;
     color: white;
