@@ -1,0 +1,11 @@
+.footerDown {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.icons:hover{
+    cursor: pointer;
+}

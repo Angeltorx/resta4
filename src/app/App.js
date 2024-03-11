@@ -8,7 +8,7 @@ import Reservas from '../components/reservaciones/Reservas'
 import Navegador from '../routes/Navegador'
 import Home from '../pages/Home'
 import Menu from '../components/menu/Menu'
-
+import Redes from '../footer/Down'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contact/>} />
       </Routes>
+      <Redes/>
     </div>
   );
 }

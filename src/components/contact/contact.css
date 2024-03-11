@@ -13,7 +13,6 @@
     min-height: 200px;
 }
 
-
 .contactJumbotron h1 {
     font-size: 60px;
     text-decoration: overline;
@@ -34,6 +33,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.contactContainer h2{
+    color: white;
+    text-decoration: underline;
 }
 
 .contactForm {
