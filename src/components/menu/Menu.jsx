@@ -9,7 +9,8 @@ export default function Menu() {
     <>
       <div>
         <div className='menu-contenedor'>
-          <h1>Deleitate con tu eleccion!</h1>
+          <h1>Nuestro Menu</h1>
+          <h2>Deleitate con tu eleccion!</h2>
           <div className='productos-contenedor'>
             {productos.map((producto, index) => {
               return (
@@ -17,16 +18,17 @@ export default function Menu() {
                   <Card.Img variant='top' className='imgCard' src={producto.img} />
                   <Card.Body>
                     <Card.Title>
-                      {producto.descripcion}
+                      {producto.nombre}
                     </Card.Title>
-                    <Button className='button' variant="primary">{producto.precio}</Button>
+                    <Card.Text>{producto.descripcion}</Card.Text>
+                    <Button className='cardButton' variant="primary">{producto.mas}</Button>
                   </Card.Body>
                 </Card>
               )
             })
             }
           </div>
-          <h1>Bedidas de la casa</h1>
+          <h2>Bedidas de la casa</h2>
           <div className='productos-contenedor'>
             {jugos.map((jugo, index) => {
               return (
@@ -34,12 +36,14 @@ export default function Menu() {
                   <Card.Img variant='top' className='imgCard' src={jugo.img} />
                   <Card.Body>
                     <Card.Title>
-                      {jugo.descripcion}
+                      {jugo.nombre}
                     </Card.Title>
-                    <Button className='button' variant="primary">{jugo.precio}</Button>
+                    <Card.Text>{jugo.descripcion}</Card.Text>
+                    <div >
+                      <Button className='cardButton' variant="primary">{jugo.mas}</Button>
+                    </div>
                   </Card.Body>
                 </Card>
-
               )
             })
             }

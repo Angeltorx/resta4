@@ -1,11 +1,72 @@
 .footerDown {
-    margin-top: 50px;
+    margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: white;
 }
 
-.icons:hover{
+.icons:hover {
     cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icons h2 {
+    margin-left: 15px;
+}
+
+.textLeft1 {
+    text-align: right;
+    margin: 0;
+}
+
+
+/* Tablets (768px y más) */
+@media (max-width: 768px) {
+    .footerDown {
+        justify-content: space-around;
+        /* Ajusta el espaciado si es necesario */
+    }
+
+    .icons h2 {
+        margin-left: 10px;
+        /* Ajusta el margen para dispositivos más pequeños */
+    }
+
+    .textLeft1 {
+        text-align: center;
+        /* Centra el texto para una mejor visualización en tablets */
+    }
+}
+
+/* Teléfonos móviles (menos de 768px) */
+@media (max-width: 480px) {
+    .footerDown {
+        flex-direction: column;
+        /* Cambia la dirección del flex para apilar los elementos */
+        align-items: center;
+        /* Alinea los elementos al centro */
+    }
+
+    .icons {
+        justify-content: center;
+        /* Asegura que los iconos estén centrados */
+    }
+
+    .icons h2 {
+        margin: 0 5px;
+        /* Reduce el margen lateral para los títulos de los iconos */
+    }
+
+    .textLeft1 {
+        text-align: center;
+        /* Centra el texto */
+        margin-top: 20px;
+        /* Añade margen superior para separar del resto del contenido */
+    }
 }

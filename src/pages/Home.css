@@ -1,10 +1,40 @@
-.homeContainer{
+.homeContainer {
     padding: 0;
     margin: 0;
 }
 
-.homeJumbotron{
-    height: 500px;
-    background-image: url("../images/jumbotron.jpg");
-    background-repeat: repeat;
+
+.homeJumbotron h1 {
+    color: white;
+    position: fixed;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 70px;
+    font-size: 66px;
+}
+
+.homeJumbotron {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 30s infinite;
+}
+
+@keyframes slideShow {
+    0% {
+        background-image: url('../images/bebjumbotron.jpeg');
+    }
+
+    33% {
+        background-image: url('../images/jumbotron.jpg');
+    }
+
+    66% {
+        background-image: url('../images/jumbotron3.jpg');
+    }
+
+    100% {
+        background-image: url('../images/jumbotron2.jpg');
+    }
 }

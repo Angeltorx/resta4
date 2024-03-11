@@ -4,21 +4,41 @@
     flex-direction: column;
     text-align: center;
     margin-top: 3rem;
-    text-transform: uppercase;
+}
+
+.menu-contenedor h1{
+    font-size: 60px;
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.menu-contenedor h2{
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    margin-bottom: 0px;
+    padding: 25px;
+    margin-left: 15px;
+    font-style: none;
 }
 
 .productos-contenedor {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 15px;
     margin-top: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    justify-items: auto;
 }
 
-
 .Card {
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ccc;
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -34,25 +54,19 @@
 .imgCard {
     width: 200px;
     height: 200px;
+    border-radius: 10px;
 }
 
-.button {
-    margin-top: 2rem;
+.cardButton{
+    text-align-last: auto;
 }
 
-
-@media (max-width: 767px) {
-    .menu-contenedor {
-        font-size: 20px;
-        margin-top: 2rem;
-    }
-
+@media (min-width: 760px) and (max-width: 1024px) {
     .productos-contenedor {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-top: 1rem;
         margin-left: 2rem;
         margin-right: 3rem;
-
     }
 
     .Card {
@@ -62,4 +76,57 @@
     .button {
         margin-top: 1rem;
     }
+
+    .imgCard {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media (min-width: 560px) and (max-width: 759px) {
+
+    .productos-contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+
+    .Card {
+        margin-bottom: 0.5rem;
+    }
+
+    .button {
+        margin-top: 1rem;
+    }
+
+    .imgCard {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media (min-width: 350px) and (max-width: 559px) {
+
+    .productos-contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+
+    .Card {
+        margin-bottom: 0.5rem;
+    }
+
+    .button {
+        margin-top: 1rem;
+    }
+
+    .imgCard {
+        width: 100px;
+        height: 100px;
+    }
+
 }

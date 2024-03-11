@@ -1,5 +1,5 @@
 .navegador {
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,23 +12,21 @@
     transition: box-shadow 0.3s ease;
     display: flex;
     justify-content: space-around;
-    height: 80px;
-    width: 100%;
     padding: 0 24px;
     cursor: pointer;
-    justify-content: space-around;
     position: fixed;
     width: 100%;
     background-color: white;
-    z-index: 100%;
+    z-index: 100;
     height: 100px;
+    /* Se corrigió el valor de z-index a un número sin porcentaje. */
 }
 
 .Navmenu {
     display: flex;
     align-items: center;
     list-style: none;
-    justify-content:right;
+    justify-content: right;
 }
 
 .NavLink {
@@ -59,18 +57,46 @@
 
 @media (max-width: 767px) {
 
+    .navegador,
+    .conteiner {
+        height: 65px;
+        /* Reducir la altura en pantallas pequeñas */
+    }
+
     .img,
     .logopages {
         display: none;
+        /* Ocultar elementos en pantallas pequeñas */
     }
 
     .conteiner {
         justify-content: center;
+        padding: 0 10px;
+        /* Reducir el padding */
+    }
+
+    .Navmenu,
+    .NavLink {
+        font-size: 14px;
+        /* Reducir el tamaño de la fuente para ahorrar espacio */
+    }
+
+    .NavLink {
+        margin-right: 10px;
+        /* Reducir el margen entre enlaces */
     }
 }
 
-h1{
+h1 {
     color: black;
     font-family: lexend;
+    font-size: 24px;
+    /* Tamaño de fuente predeterminado para grandes pantallas */
 }
 
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+        /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+}
