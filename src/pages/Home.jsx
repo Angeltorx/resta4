@@ -5,9 +5,9 @@ export default function Home() {
         <>
             <section className='homeContainer'>
                 <div className='homeJumbotron'>
-                    <h1 className="White">"Masterburs: Sabor que Inspira, Calidad que Perdura"</h1>
                 </div>
                 <div>
+                    <h1 className="White">"Masterburs: Sabor que Inspira, Calidad que Perdura"</h1>
 
                 </div>
                 <div>

@@ -9,6 +9,7 @@ import Navegador from '../routes/Navegador'
 import Home from '../pages/Home'
 import Menu from '../components/menu/Menu'
 import Redes from '../footer/Down'
+import Politica from '../components/privacy/Politica'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Blog" element={<Blog/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contact/>} />
+        <Route path="/Politica" element={<Politica/>} />
       </Routes>
       <Redes/>
     </div>

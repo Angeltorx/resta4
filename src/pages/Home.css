@@ -1,4 +1,10 @@
+.homeContainer{
+    padding: 0;
+    margin: 0;
+}
+
 .homeJumbotron{
     height: 500px;
     background-image: url("../images/jumbotron.jpg");
+    background-repeat: repeat;
 }

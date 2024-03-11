@@ -1,6 +1,12 @@
 import '../footer/down.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function SignIn() {
+    let navigate = useNavigate();
+    function redirigir() {
+        navigate('/Politica');
+}
     return (
         <>
         <div className='footerDown'>
@@ -15,7 +21,7 @@ export default function SignIn() {
                 <p> <i class="bi bi-youtube"></i> Youtube</p>
             </div>
             <div className='textLeft'>
-                <p>El uso de este sitio es aceptacion de la <a href="#">Politica de Privacidad</a>  del mismo </p>
+                <p>El uso de este sitio es aceptacion de la <a href="#" onClick={redirigir} >Politica de Privacidad</a>  del mismo </p>
                 <p>Todos los derechos reservaods <i class="bi bi-c-circle"></i> 2023</p>
             </div>
         </div>

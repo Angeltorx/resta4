@@ -1,8 +1,15 @@
 import '../contact/Contact.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Contact() {
+    let navigate = useNavigate();
+    function redirigir() {
+        navigate('/Politica');
+}
     return (
+
         <>
         <div className='contactContainer'>
             <section className='contactJumbotron'>
@@ -41,7 +48,7 @@ export default function Contact() {
                         </form>
                             <div class="contactForm">
                                 <input type="checkbox" name="checkbox" id="checkbox" className='check' required />
-                                <label for="checkbox">*Acepto la politica para el tratamiento de mis datos*</label>
+                                <label for="checkbox"> Acepto la politica para el tratamiento de mis <a href="#" onClick={redirigir}><b>DATOS</b></a></label>
                             </div>
                     </div>
                     <div>
