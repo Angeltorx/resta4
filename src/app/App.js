@@ -13,17 +13,17 @@ import Politica from '../components/privacy/Politica'
 function App() {
   return (
     <div className="App">
-      <Navegador/>
+      <Navegador />
       <Routes>
         <Route path="/Home" element={<Home />} />
-        <Route path="/Menu" element={<Menu/>} />
+        <Route path="/Menu" element={<Menu />} />
         <Route path="/Reservas" element={<Reservas />} />
-        <Route path="/Blog" element={<Blog/>} />
-        <Route path="/About" element={<About/>} />
-        <Route path="/Contact" element={<Contact/>} />
-        <Route path="/Politica" element={<Politica/>} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Politica" element={<Politica />} />
       </Routes>
-      <Redes/>
+      <Redes />
     </div>
   );
 }
