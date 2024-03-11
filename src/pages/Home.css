@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 .homeJumbotron h1 {
     color: white;
     position: fixed;
@@ -36,5 +35,17 @@
 
     100% {
         background-image: url('../images/jumbotron2.jpg');
+    }
+}
+
+@media (max-width: 768px) {
+    .homeJumbotron h1 {
+        font-size: 9vw; /* Larger font size for smaller devices */
+        padding-left: 10vw; /* Increased padding for smaller screens */
+        padding-top: 15vh; /* Adjust padding-top for smaller screens */
+    }
+
+    .homeJumbotron {
+        height: 50vh; /* Adjust the height for smaller screens */
     }
 }
