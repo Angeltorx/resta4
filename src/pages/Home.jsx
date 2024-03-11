@@ -9,12 +9,6 @@ export default function Home() {
                     Sabor que Inspira, <br/>
                         Calidad que Perdura"</h1>
                 </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
             </section>
         </>
     );
